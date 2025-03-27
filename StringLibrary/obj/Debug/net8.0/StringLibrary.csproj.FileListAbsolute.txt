@@ -1,0 +1,11 @@
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.deps.json
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.dll
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.pdb
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfo.cs
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.dll
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\refint\StringLibrary.dll
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.pdb
+C:\Centennial\Winter 2025\COMP367_002_DevOps\Lab Assignments\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\ref\StringLibrary.dll

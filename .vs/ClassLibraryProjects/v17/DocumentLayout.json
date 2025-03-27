@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B70A88C-46D3-4144-BEDC-667343B830B3}|Solution Items{6B70A88C-46D3-4144-BEDC-667343B830B3}|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B70A88C-46D3-4144-BEDC-667343B830B3}|Solution Items{6B70A88C-46D3-4144-BEDC-667343B830B3}|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0034F473-430E-4BFB-AFF1-3A03A0A431B7}|ShowCase\\ShowCase.csproj|c:\\centennial\\winter 2025\\comp367_002_devops\\lab assignments\\classlibraryprojects\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0034F473-430E-4BFB-AFF1-3A03A0A431B7}|ShowCase\\ShowCase.csproj|solutionrelative:showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D359B3D5-1DBC-4883-BD8A-9CCE029CF478}|StringLibrary\\StringLibrary.csproj|c:\\centennial\\winter 2025\\comp367_002_devops\\lab assignments\\classlibraryprojects\\stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D359B3D5-1DBC-4883-BD8A-9CCE029CF478}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore.txt",
+              "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt",
+              "RelativeDocumentMoniker": ".gitignore.txt",
+              "ToolTip": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt",
+              "RelativeToolTip": ".gitignore.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-27T15:12:28.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeDocumentMoniker": "ShowCase\\Program.cs",
+              "ToolTip": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeToolTip": "ShowCase\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:44:31.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "StringLibrary\\Class1.cs",
+              "ToolTip": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
+              "RelativeToolTip": "StringLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:40:35.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
