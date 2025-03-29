@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  name: Default # Use a self-hosted agent as per your asignment
 
 variables:
   solution: '**/*.sln'
