@@ -1,0 +1,42 @@
+trigger:
+- master
+
+pool:
+  name: 'Default'  # Points to the self-hosted agent pool
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Install .NET Core SDK'
+  inputs:
+    version: '8.x'  # Ensures .NET 8 is targeted
+    installationPath: 'C:\sdk'
+
+# Optional: Verify if .NET SDK is correctly installed
+- script: |
+    dotnet --version
+  displayName: 'Verify .NET SDK Installation'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore dependencies'
+  inputs:
+    command: 'restore'
+    projects: '/*.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build project'
+  inputs:
+    command: 'build'
+    projects: '/*.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Pack NuGet package'
+  inputs:
+    command: 'pack'
+    arguments: '--output $(Build.ArtifactStagingDirectory)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Push NuGet package to Azure Artifacts Feed'
+  inputs:
+    command: 'push'
+    arguments: '--source https://pkgs.dev.azure.com/ssanto43/_packaging/Lab4Feed/nuget/v3/index.json --api-key $(System.AccessToken)'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
