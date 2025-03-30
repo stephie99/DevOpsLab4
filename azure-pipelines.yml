@@ -19,13 +19,13 @@ steps:
   displayName: 'Build Project'
 
 - script: |
-    dotnet pack --configuration Release --output $(Build.ArtifactStagingDirectory)
-  displayName: 'Pack NuGet Package'
+    dotnet pack --configuration Release --output $(Build.ArtifactStagingDirectory) /p:Version=1.0.$(Build.BuildId)
+  displayName: 'Pack NuGet Package with Auto Versioning'
 
 - task: NuGetCommand@2
   inputs:
     command: push
     packagesToPush: $(Build.ArtifactStagingDirectory)/*.nupkg
     nuGetFeedType: internal
-    publishVstsFeed: 'Lab4  Azure DevOps CICD/Lab4Feed' #project/feed
+    publishVstsFeed: 'ssanto43/Lab4  Azure DevOps CICD/Lab4Feed'
   displayName: 'Push to Azure Artifacts Feed'
