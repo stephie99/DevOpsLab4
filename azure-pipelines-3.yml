@@ -27,5 +27,5 @@ steps:
     command: push
     packagesToPush: $(Build.ArtifactStagingDirectory)/*.nupkg
     nuGetFeedType: internal
-    publishVstsFeed: 'your-feed-id'
+    publishVstsFeed: 'Lab4Feed'
   displayName: 'Push to Azure Artifacts Feed'
