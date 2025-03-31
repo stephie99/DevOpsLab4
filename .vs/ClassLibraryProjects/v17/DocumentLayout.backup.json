@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B70A88C-46D3-4144-BEDC-667343B830B3}|Solution Items{6B70A88C-46D3-4144-BEDC-667343B830B3}|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6B70A88C-46D3-4144-BEDC-667343B830B3}|Solution Items{6B70A88C-46D3-4144-BEDC-667343B830B3}|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0034F473-430E-4BFB-AFF1-3A03A0A431B7}|ShowCase\\ShowCase.csproj|c:\\centennial\\winter 2025\\comp367_002_devops\\lab assignments\\classlibraryprojects\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0034F473-430E-4BFB-AFF1-3A03A0A431B7}|ShowCase\\ShowCase.csproj|solutionrelative:showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StringLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D359B3D5-1DBC-4883-BD8A-9CCE029CF478}|StringLibrary\\StringLibrary.csproj|c:\\centennial\\winter 2025\\comp367_002_devops\\lab assignments\\classlibraryprojects\\stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D359B3D5-1DBC-4883-BD8A-9CCE029CF478}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StringLibrary\\StringLibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\ShowCase\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShowCase\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,6 +47,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "nuget.config",
+              "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\nuget.config",
+              "RelativeDocumentMoniker": "nuget.config",
+              "ToolTip": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\nuget.config",
+              "RelativeToolTip": "nuget.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-31T18:18:52.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringLibrary.csproj",
+              "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+              "RelativeDocumentMoniker": "StringLibrary\\StringLibrary.csproj",
+              "ToolTip": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+              "RelativeToolTip": "StringLibrary\\StringLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T15:31:33.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": ".gitignore.txt",
               "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\.gitignore.txt",
               "RelativeDocumentMoniker": ".gitignore.txt",
@@ -46,12 +78,11 @@
               "RelativeToolTip": ".gitignore.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-27T15:12:28.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:12:28.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\ShowCase\\Program.cs",
               "RelativeDocumentMoniker": "ShowCase\\Program.cs",
@@ -59,12 +90,11 @@
               "RelativeToolTip": "ShowCase\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:44:31.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T14:44:31.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Centennial\\Winter 2025\\COMP367_002_DevOps\\Lab Assignments\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "StringLibrary\\Class1.cs",
