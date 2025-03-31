@@ -1,5 +1,5 @@
 trigger:
-- master
+- main
 
 pool:
   name: 'AgentSteph'  # Points to your self-hosted agent pool
