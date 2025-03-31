@@ -7,12 +7,6 @@ pool:
   name: StephAgentPool
 
 steps:
-# Install .NET SDK (Optional: If pipeline relies on a specific version)
-- task: UseDotNet@2
-  inputs:
-    packageType: sdk
-    version: '8.0.x'
-
 # Build and pack StringLibrary
 - script: |
     dotnet restore "StringLibrary\StringLibrary.csproj"
