@@ -2,15 +2,15 @@ trigger:
 - master
 
 pool:
-  name: 'StephAgentPool'  # Points to your self-hosted agent pool
+  name: 'AgentSteph'  # Points to your self-hosted agent pool
 
 variables:
   buildConfiguration: 'Release'
   packageVersion: '1.0.$(Build.BuildId)'
   projectName: 'ShowCase'  # Starter project
   libraryName: 'StringLibrary'  # Secondary project
-  feedName: 'Lab4 Azure DevOps CICD/Lab4Steph'
-  feedUrl: 'https://pkgs.dev.azure.com/ssanto43/Lab4%20%20Azure%20DevOps%20CICD/_packaging/Lab4Steph/nuget/v3/index.json'
+  feedName: 'CICDLab4/ssanto43'
+  feedUrl: 'https://pkgs.dev.azure.com/ssanto43/_packaging/ssanto43/nuget/v3/index.json'
 
 steps:
 # Step 1: Install .NET 8 SDK
