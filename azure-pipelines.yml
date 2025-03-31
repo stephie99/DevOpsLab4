@@ -9,8 +9,8 @@ variables:
   packageVersion: '1.0.$(Build.BuildId)'
   projectName: 'ShowCase'  # Starter project
   libraryName: 'StringLibrary'  # Secondary project
-  feedName: 'CICDLab4/ssanto43'
-  feedUrl: 'https://pkgs.dev.azure.com/ssanto43/_packaging/ssanto43/nuget/v3/index.json'
+  feedName: 'CICDLab4/stephfeed'
+  feedUrl: 'https://pkgs.dev.azure.com/ssanto43/CICDLab4/_packaging/stephfeed/nuget/v3/index.json'
 
 steps:
 # Step 1: Install .NET 8 SDK
