@@ -40,7 +40,7 @@ steps:
   displayName: 'Restore packages (ShowCase)'
   inputs:
     command: 'restore'
-    projects: '/$(projectName).csproj'
+    projects: 'ShowCase/$(projectName).csproj'
     feedsToUse: 'config'
     nugetConfigPath: 'nuget.config'
 
