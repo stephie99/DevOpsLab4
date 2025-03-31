@@ -1,0 +1,104 @@
+trigger:
+- master
+
+pool:
+  name: 'StephAgentPool'  # Points to your self-hosted agent pool
+
+variables:
+  buildConfiguration: 'Release'
+  packageVersion: '1.0.$(Build.BuildId)'
+  projectName: 'ShowCase'  # Starter project
+  libraryName: 'StringLibrary'  # Secondary project
+  feedName: 'StringExtensionLibrary/newfeed'
+  feedUrl: 'https://pkgs.dev.azure.com/ssanto43/4d45d84f-b2b7-4367-bb29-4b45d2463fc5/_packaging/Lab4Steph/nuget/v3/index.json'
+
+steps:
+# Step 1: Install .NET 8 SDK
+- task: UseDotNet@2
+  displayName: 'Install .NET 8 SDK'
+  inputs:
+    version: '8.x'
+    installationPath: 'C:\sdk'
+
+# Step 2: Create nuget.config
+- powershell: |
+    @" 
+    <?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+      <packageSources>
+        <clear />
+        <add key="newfeed" value="$(feedUrl)" />
+      </packageSources>
+    </configuration>
+    "@ | Out-File -FilePath 'nuget.config' -Encoding utf8
+    Write-Host "Created nuget.config:"
+    Get-Content 'nuget.config'
+  displayName: 'Create nuget.config'
+
+# Step 3: Restore packages for ShowCase
+- task: DotNetCoreCLI@2
+  displayName: 'Restore packages (ShowCase)'
+  inputs:
+    command: 'restore'
+    projects: '/$(projectName).csproj'
+    feedsToUse: 'config'
+    nugetConfigPath: 'nuget.config'
+
+# Step 4: Build the ShowCase project
+- task: DotNetCoreCLI@2
+  displayName: 'Build project (ShowCase)'
+  inputs:
+    command: 'build'
+    projects: '/$(projectName).csproj'
+    arguments: '--configuration $(buildConfiguration) --no-restore --verbosity detailed'
+
+# Step 5: Restore packages for StringLibrary
+- task: DotNetCoreCLI@2
+  displayName: 'Restore packages (StringLibrary)'
+  inputs:
+    command: 'restore'
+    projects: '/$(libraryName).csproj'
+    feedsToUse: 'config'
+    nugetConfigPath: 'nuget.config'
+
+# Step 6: Build the StringLibrary project
+- task: DotNetCoreCLI@2
+  displayName: 'Build project (StringLibrary)'
+  inputs:
+    command: 'build'
+    projects: '/$(libraryName).csproj'
+    arguments: '--configuration $(buildConfiguration) --no-restore --verbosity detailed'
+
+# Step 7: Pack NuGet package
+- task: DotNetCoreCLI@2
+  displayName: 'Create NuGet package (StringLibrary)'
+  inputs:
+    command: 'pack'
+    packagesToPack: '/$(libraryName).csproj'
+    configuration: '$(buildConfiguration)'
+    outputDir: '$(Build.ArtifactStagingDirectory)'
+    nobuild: true
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'packageVersion'
+    arguments: '--verbosity detailed'
+
+# Step 8: Debug - Show package files (FIXED FOR WINDOWS)
+- script: |
+    echo Generated packages:
+    dir /B "$(Build.ArtifactStagingDirectory)"
+  displayName: 'List generated packages'
+  failOnStderr: false
+
+# Step 9: Authenticate
+- task: NuGetAuthenticate@1
+  displayName: 'Authenticate with Azure Artifacts'
+
+# Step 10: Push to Azure Artifacts
+- task: DotNetCoreCLI@2
+  displayName: 'Push to Azure Artifacts'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '$(feedName)'
+    arguments: '--skip-duplicate --verbosity detailed'
