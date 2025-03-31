@@ -7,12 +7,6 @@ pool:
   name: StephAgentPool
 
 steps:
-- task: UseDotNet@2
-  inputs:
-    packageType: sdk
-    version: '9.0.x'
-    installationPath: 'C:\Program Files\dotnet'
-
 - script: |
     dotnet restore
     dotnet build --configuration Release
