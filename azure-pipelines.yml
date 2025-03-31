@@ -27,7 +27,7 @@ steps:
     <configuration>
       <packageSources>
         <clear />
-        <add key="newfeed" value="$(feedUrl)" />
+        <add key="stephfeed" value="$(feedUrl)" />
       </packageSources>
     </configuration>
     "@ | Out-File -FilePath 'nuget.config' -Encoding utf8
